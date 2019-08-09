@@ -95,32 +95,6 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# maximiseur3-rescue_CONN_01X04
-#
-DEF maximiseur3-rescue_CONN_01X04 P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
-F1 "maximiseur3-rescue_CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
-$ENDFPLIST
-DRAW
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # maximiseur3-rescue_CP
 #
 DEF maximiseur3-rescue_CP C 0 10 N Y 1 F N
@@ -267,6 +241,25 @@ P 5 0 1 8 -70 50 -50 30 -50 -30 -30 -50 -30 -50 N
 P 5 0 1 0 -50 0 50 50 50 -50 -50 0 -50 0 F
 X K 1 -200 0 150 R 50 50 1 1 P
 X A 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# screw_terminal_01x01_Screw_Terminal_01x01
+#
+DEF screw_terminal_01x01_Screw_Terminal_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "screw_terminal_01x01_Screw_Terminal_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 0 25 1 1 6 N
+S -50 50 50 -50 1 1 10 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

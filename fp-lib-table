@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name maximiseur)(type KiCad)(uri "$(KIPRJMOD)/maximiseur.pretty")(options "")(descr ""))
+  (lib (name Keystone)(type KiCad)(uri ${KIPRJMOD}/lib/Keystone)(options "")(descr ""))
 )

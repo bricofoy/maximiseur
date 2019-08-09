@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name maximiseur3-rescue)(type Legacy)(uri ${KIPRJMOD}/maximiseur3-rescue.lib)(options "")(descr ""))
+  (lib (name Keystone)(type Legacy)(uri ${KIPRJMOD}/lib/Keystone.lib)(options "")(descr ""))
+  (lib (name screw_terminal_01x01)(type Legacy)(uri ${KIPRJMOD}/lib/screw_terminal_01x01.lib)(options "")(descr ""))
 )

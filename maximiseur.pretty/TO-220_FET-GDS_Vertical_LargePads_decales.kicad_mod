@@ -1,4 +1,4 @@
-(module TO-220_FET-GDS_Vertical_LargePads_decales (layer F.Cu) (tedit 55D4B78B)
+(module TO-220_FET-GDS_Vertical_LargePads_decales (layer F.Cu) (tedit 5D4D36D9)
   (descr "TO-220, FET-GDS, Vertical, Large Pads,")
   (tags "TO-220, FET-GDS, Vertical, Large Pads,")
   (fp_text reference Q1 (at 0 -5.08) (layer F.SilkS)
@@ -33,9 +33,9 @@
   (fp_line (start -5.334 -1.905) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
   (fp_line (start 0 -3.048) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
   (fp_line (start 0 -3.048) (end 5.334 -3.048) (layer F.SilkS) (width 0.15))
-  (pad D thru_hole oval (at 0 1.905 90) (size 4 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad G thru_hole oval (at -2.54 0 90) (size 3 1.69926) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad S thru_hole oval (at 2.54 0 90) (size 4 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad D thru_hole oval (at 0 1.905 90) (size 4 2) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad G thru_hole oval (at -2.54 0 90) (size 3 1.69926) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad S thru_hole oval (at 2.54 0 90) (size 4 2) (drill 1.00076) (layers *.Cu *.Mask))
   (model Transistors_TO-220.3dshapes/TO-220_FET-GDS_Vertical_LargePads.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
