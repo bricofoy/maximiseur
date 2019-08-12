@@ -657,10 +657,10 @@ F 3 "" H 5025 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maximiseur3-rescue:CP2 C?
+L maximiseur3-rescue:CP2 C7
 U 1 1 5D5285EA
 P 5300 2550
-F 0 "C?" H 5300 2650 40  0000 L CNN
+F 0 "C7" H 5300 2650 40  0000 L CNN
 F 1 "1000µF" H 5306 2465 40  0000 L CNN
 F 2 "maximiseur:CP_Radial_D16.0mm_P7.50mm" H 5338 2400 30  0001 C CNN
 F 3 "" H 5300 2550 60  0000 C CNN
@@ -668,10 +668,10 @@ F 3 "" H 5300 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maximiseur3-rescue:CP2 C?
+L maximiseur3-rescue:CP2 C8
 U 1 1 5D5289C3
 P 5575 2550
-F 0 "C?" H 5575 2650 40  0000 L CNN
+F 0 "C8" H 5575 2650 40  0000 L CNN
 F 1 "1000µF" H 5581 2465 40  0000 L CNN
 F 2 "maximiseur:CP_Radial_D16.0mm_P7.50mm" H 5613 2400 30  0001 C CNN
 F 3 "" H 5575 2550 60  0000 C CNN
@@ -679,10 +679,10 @@ F 3 "" H 5575 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maximiseur3-rescue:CP2 C?
+L maximiseur3-rescue:CP2 C9
 U 1 1 5D528E21
 P 5850 2550
-F 0 "C?" H 5850 2650 40  0000 L CNN
+F 0 "C9" H 5850 2650 40  0000 L CNN
 F 1 "1000µF" H 5856 2465 40  0000 L CNN
 F 2 "maximiseur:CP_Radial_D16.0mm_P7.50mm" H 5888 2400 30  0001 C CNN
 F 3 "" H 5850 2550 60  0000 C CNN
@@ -690,10 +690,10 @@ F 3 "" H 5850 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maximiseur3-rescue:CP2 C?
+L maximiseur3-rescue:CP2 C10
 U 1 1 5D52925F
 P 6125 2550
-F 0 "C?" H 6125 2650 40  0000 L CNN
+F 0 "C10" H 6125 2650 40  0000 L CNN
 F 1 "1000µF" H 6131 2465 40  0000 L CNN
 F 2 "maximiseur:CP_Radial_D16.0mm_P7.50mm" H 6163 2400 30  0001 C CNN
 F 3 "" H 6125 2550 60  0000 C CNN

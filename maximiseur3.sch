@@ -412,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1300 4175 1300
 $Comp
-L Transistor_BJT:BD139 T1
+L maximiseur3-rescue:BD139-Transistor_BJT T1
 U 1 1 5D2C4DE3
 P 1350 1650
 F 0 "T1" H 1542 1696 50  0000 L CNN
@@ -555,7 +555,7 @@ Connection ~ 8475 1300
 Wire Wire Line
 	8475 1300 8625 1300
 $Comp
-L Comparator:LM311 U1
+L maximiseur3-rescue:LM311-Comparator U1
 U 1 1 5D4CCDDC
 P 3000 3100
 F 0 "U1" H 3344 3146 50  0000 L CNN
