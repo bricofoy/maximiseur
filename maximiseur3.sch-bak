@@ -56,7 +56,7 @@ F 1 "SW   SW" V 10475 4150 50  0000 C CNN
 F 2 "maximiseur:bornier2" H 10375 4150 60  0001 C CNN
 F 3 "" H 10375 4150 60  0000 C CNN
 	1    10375 4150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L maximiseur3-rescue:R R2
@@ -747,12 +747,12 @@ Connection ~ 2900 3700
 Wire Wire Line
 	2900 3700 2900 4100
 $Comp
-L Device:Varistor VR1
+L maximiseur3-rescue:Varistor-Device VR1
 U 1 1 5D5E3C76
 P 8925 3025
 F 0 "VR1" H 9028 3071 50  0000 L CNN
-F 1 "Varistor" H 9028 2980 50  0000 L CNN
-F 2 "" V 8855 3025 50  0001 C CNN
+F 1 "V56ZA8" H 9028 2980 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 8855 3025 50  0001 C CNN
 F 3 "~" H 8925 3025 50  0001 C CNN
 	1    8925 3025
 	1    0    0    -1  
@@ -781,23 +781,23 @@ Wire Wire Line
 	8925 3175 8925 4100
 Connection ~ 8925 4100
 $Comp
-L Device:Varistor VR3
+L maximiseur3-rescue:Varistor-Device VR3
 U 1 1 5D637E14
 P 9350 3350
 F 0 "VR3" H 9453 3396 50  0000 L CNN
-F 1 "Varistor" H 9453 3305 50  0000 L CNN
-F 2 "" V 9280 3350 50  0001 C CNN
+F 1 "V56ZA8" H 9453 3305 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 9280 3350 50  0001 C CNN
 F 3 "~" H 9350 3350 50  0001 C CNN
 	1    9350 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Varistor VR2
+L maximiseur3-rescue:Varistor-Device VR2
 U 1 1 5D638AFE
 P 9350 1825
 F 0 "VR2" H 9453 1871 50  0000 L CNN
-F 1 "Varistor" H 9453 1780 50  0000 L CNN
-F 2 "" V 9280 1825 50  0001 C CNN
+F 1 "V56ZA8" H 9453 1780 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 9280 1825 50  0001 C CNN
 F 3 "~" H 9350 1825 50  0001 C CNN
 	1    9350 1825
 	1    0    0    -1  
@@ -828,4 +828,48 @@ Wire Wire Line
 	9350 4100 9950 4100
 Wire Wire Line
 	2450 4200 10175 4200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D5B6C2F
+P 1300 5000
+F 0 "H1" H 1400 5046 50  0000 L CNN
+F 1 "MountingHole" H 1400 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 1300 5000 50  0001 C CNN
+F 3 "~" H 1300 5000 50  0001 C CNN
+	1    1300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D5B741C
+P 1300 5200
+F 0 "H2" H 1400 5246 50  0000 L CNN
+F 1 "MountingHole" H 1400 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 1300 5200 50  0001 C CNN
+F 3 "~" H 1300 5200 50  0001 C CNN
+	1    1300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D5B7BFE
+P 1300 5400
+F 0 "H3" H 1400 5446 50  0000 L CNN
+F 1 "MountingHole" H 1400 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 1300 5400 50  0001 C CNN
+F 3 "~" H 1300 5400 50  0001 C CNN
+	1    1300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D5B7FBA
+P 1300 5600
+F 0 "H4" H 1400 5646 50  0000 L CNN
+F 1 "MountingHole" H 1400 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 1300 5600 50  0001 C CNN
+F 3 "~" H 1300 5600 50  0001 C CNN
+	1    1300 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
