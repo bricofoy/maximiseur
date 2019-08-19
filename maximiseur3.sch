@@ -50,12 +50,12 @@ $EndComp
 $Comp
 L maximiseur3-rescue:CONN_01X02 P1
 U 1 1 55B1FA9C
-P 9375 4150
-F 0 "P1" H 9375 4300 50  0000 C CNN
-F 1 "SW   SW" V 9475 4150 50  0000 C CNN
-F 2 "maximiseur:bornier2" H 9375 4150 60  0001 C CNN
-F 3 "" H 9375 4150 60  0000 C CNN
-	1    9375 4150
+P 10375 4150
+F 0 "P1" H 10375 4300 50  0000 C CNN
+F 1 "SW   SW" V 10475 4150 50  0000 C CNN
+F 2 "maximiseur:bornier2" H 10375 4150 60  0001 C CNN
+F 3 "" H 10375 4150 60  0000 C CNN
+	1    10375 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -191,25 +191,18 @@ Connection ~ 2450 3000
 Wire Wire Line
 	2450 2600 3100 2600
 Connection ~ 2900 4100
-Connection ~ 8625 4100
-Text Label 8725 2750 0    60   ~ 0
+Text Label 10000 2750 0    60   ~ 0
 PV-
-Text Label 8725 2150 0    60   ~ 0
+Text Label 9950 2150 0    60   ~ 0
 PV+
-Text Label 8725 2450 0    60   ~ 0
+Text Label 10000 2450 0    60   ~ 0
 M-
 Text Label 8775 4200 0    60   ~ 0
 RC
-Text Label 8975 2150 0    60   ~ 0
+Text Label 10125 2150 0    60   ~ 0
 M+
 Text Label 2200 1900 0    60   ~ 0
 +15V
-Wire Wire Line
-	9175 2150 8625 2150
-Wire Wire Line
-	8625 1300 8625 2150
-Wire Wire Line
-	9175 2450 8475 2450
 Connection ~ 7475 2450
 Wire Wire Line
 	3700 2300 3700 2400
@@ -231,8 +224,6 @@ Wire Wire Line
 	2450 3000 2450 4200
 Wire Wire Line
 	7475 4100 8000 4100
-Wire Wire Line
-	8625 4100 9175 4100
 Wire Wire Line
 	7475 2450 7475 3300
 Wire Wire Line
@@ -304,8 +295,6 @@ Wire Wire Line
 	8475 3700 8475 4100
 Connection ~ 8475 4100
 Wire Wire Line
-	8475 4100 8625 4100
-Wire Wire Line
 	8000 3300 8000 2450
 Connection ~ 8000 2450
 Wire Wire Line
@@ -357,8 +346,6 @@ Wire Wire Line
 Connection ~ 4450 4100
 Wire Wire Line
 	4450 4100 4725 4100
-Wire Wire Line
-	2450 4200 9175 4200
 Wire Wire Line
 	3700 3100 3700 2600
 Connection ~ 3700 2600
@@ -541,8 +528,6 @@ F 3 "" H 8475 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 8475 1300
-Wire Wire Line
-	8475 1300 8625 1300
 $Comp
 L maximiseur3-rescue:LM311-Comparator U1
 U 1 1 5D4CCDDC
@@ -578,40 +563,36 @@ Wire Wire Line
 $Comp
 L screw_terminal_01x01:Screw_Terminal_01x01 J1
 U 1 1 5D4F4A74
-P 9375 2150
-F 0 "J1" H 9455 2192 50  0000 L CNN
-F 1 "PV+/M+" H 9455 2101 50  0000 L CNN
-F 2 "maximiseur:7808" H 9375 2150 50  0001 C CNN
-F 3 "~" H 9375 2150 50  0001 C CNN
-	1    9375 2150
+P 10375 2150
+F 0 "J1" H 10455 2192 50  0000 L CNN
+F 1 "PV+/M+" H 10455 2101 50  0000 L CNN
+F 2 "maximiseur:7808" H 10375 2150 50  0001 C CNN
+F 3 "~" H 10375 2150 50  0001 C CNN
+	1    10375 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L screw_terminal_01x01:Screw_Terminal_01x01 J3
 U 1 1 5D4F96DA
-P 9375 2750
-F 0 "J3" H 9455 2792 50  0000 L CNN
-F 1 "PV-" H 9455 2701 50  0000 L CNN
-F 2 "maximiseur:7808" H 9375 2750 50  0001 C CNN
-F 3 "~" H 9375 2750 50  0001 C CNN
-	1    9375 2750
+P 10375 2750
+F 0 "J3" H 10455 2792 50  0000 L CNN
+F 1 "PV-" H 10455 2701 50  0000 L CNN
+F 2 "maximiseur:7808" H 10375 2750 50  0001 C CNN
+F 3 "~" H 10375 2750 50  0001 C CNN
+	1    10375 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L screw_terminal_01x01:Screw_Terminal_01x01 J2
 U 1 1 5D4F992A
-P 9375 2450
-F 0 "J2" H 9455 2492 50  0000 L CNN
-F 1 "M-" H 9455 2401 50  0000 L CNN
-F 2 "maximiseur:7808" H 9375 2450 50  0001 C CNN
-F 3 "~" H 9375 2450 50  0001 C CNN
-	1    9375 2450
+P 10375 2450
+F 0 "J2" H 10455 2492 50  0000 L CNN
+F 1 "M-" H 10455 2401 50  0000 L CNN
+F 2 "maximiseur:7808" H 10375 2450 50  0001 C CNN
+F 3 "~" H 10375 2450 50  0001 C CNN
+	1    10375 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9175 2750 8625 2750
-Wire Wire Line
-	8625 2750 8625 4100
 Connection ~ 6700 3100
 Connection ~ 3700 3100
 Connection ~ 7000 1300
@@ -765,4 +746,86 @@ Wire Wire Line
 Connection ~ 2900 3700
 Wire Wire Line
 	2900 3700 2900 4100
+$Comp
+L Device:Varistor VR1
+U 1 1 5D5E3C76
+P 8925 3025
+F 0 "VR1" H 9028 3071 50  0000 L CNN
+F 1 "V56ZA8" H 9028 2980 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 8855 3025 50  0001 C CNN
+F 3 "~" H 8925 3025 50  0001 C CNN
+	1    8925 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 2450 9350 2450
+Wire Wire Line
+	8475 4100 8925 4100
+Wire Wire Line
+	9950 2750 9950 4100
+Wire Wire Line
+	9950 2750 10175 2750
+Connection ~ 9950 4100
+Wire Wire Line
+	9950 4100 10175 4100
+Wire Wire Line
+	9925 2150 9925 1300
+Wire Wire Line
+	9925 2150 10175 2150
+Wire Wire Line
+	8475 1300 8925 1300
+Wire Wire Line
+	8925 2875 8925 1300
+Connection ~ 8925 1300
+Wire Wire Line
+	8925 3175 8925 4100
+Connection ~ 8925 4100
+$Comp
+L Device:Varistor VR3
+U 1 1 5D637E14
+P 9350 3350
+F 0 "VR3" H 9453 3396 50  0000 L CNN
+F 1 "V56ZA8" H 9453 3305 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 9280 3350 50  0001 C CNN
+F 3 "~" H 9350 3350 50  0001 C CNN
+	1    9350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Varistor VR2
+U 1 1 5D638AFE
+P 9350 1825
+F 0 "VR2" H 9453 1871 50  0000 L CNN
+F 1 "V56ZA8" H 9453 1780 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.5mm_P7.5mm" V 9280 1825 50  0001 C CNN
+F 3 "~" H 9350 1825 50  0001 C CNN
+	1    9350 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1700 9350 1675
+Wire Wire Line
+	8925 1300 9350 1300
+Connection ~ 9350 1300
+Wire Wire Line
+	9350 1300 9925 1300
+Connection ~ 9350 1675
+Wire Wire Line
+	9350 1675 9350 1300
+Wire Wire Line
+	9350 1975 9350 2450
+Connection ~ 9350 2450
+Wire Wire Line
+	9350 2450 10175 2450
+Wire Wire Line
+	9350 2450 9350 3200
+Wire Wire Line
+	9350 3500 9350 4100
+Wire Wire Line
+	8925 4100 9350 4100
+Connection ~ 9350 4100
+Wire Wire Line
+	9350 4100 9950 4100
+Wire Wire Line
+	2450 4200 10175 4200
 $EndSCHEMATC
