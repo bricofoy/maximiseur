@@ -1,4 +1,4 @@
-(module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5D5A804D)
+(module CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5D5C454F)
   (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
   (fp_text reference C1 (at 3.4 3.2) (layer F.SilkS)
@@ -13,8 +13,8 @@
   (fp_line (start -0.633605 -1.3375) (end -0.633605 -0.8375) (layer F.Fab) (width 0.1))
   (fp_line (start -1.554775 -1.856) (end -1.054775 -1.856) (layer F.SilkS) (width 0.12))
   (fp_line (start -1.304775 -2.106) (end -1.304775 -1.606) (layer F.SilkS) (width 0.12))
-  (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
