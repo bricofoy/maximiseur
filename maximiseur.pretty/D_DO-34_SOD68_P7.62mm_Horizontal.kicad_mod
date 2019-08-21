@@ -1,4 +1,4 @@
-(module D_DO-34_SOD68_P7.62mm_Horizontal (layer F.Cu) (tedit 5D5C477D)
+(module D_DO-34_SOD68_P7.62mm_Horizontal (layer F.Cu) (tedit 5D5C9377)
   (descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
   (tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm")
   (fp_text reference DZ2 (at 3.429 -1.7145 -180) (layer F.SilkS)
@@ -20,8 +20,8 @@
   (fp_line (start -1 1.05) (end 8.63 1.05) (layer F.CrtYd) (width 0.05))
   (fp_line (start 8.63 1.05) (end 8.63 -1.05) (layer F.CrtYd) (width 0.05))
   (fp_line (start 8.63 -1.05) (end -1 -1.05) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole oval (at 7.62 0) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at 0 0) (size 2 2) (drill 0.75) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 7.62 0) (size 2.5 2.5) (drill 0.75) (layers *.Cu *.Mask F.SilkS))
   (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

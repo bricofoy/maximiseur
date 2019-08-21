@@ -1,4 +1,4 @@
-(module C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 5D5C4000)
+(module C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 5D5C947E)
   (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
   (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
   (fp_text reference C3 (at -2 0 90) (layer F.SilkS)
@@ -15,8 +15,8 @@
   (fp_line (start -1.25 1.25) (end 6.25 1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.25 1.25) (end 6.25 -1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.25 -1.25) (end -1.25 -1.25) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W2.0mm_P5.00mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 0.5))

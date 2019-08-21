@@ -133,7 +133,7 @@ F 1 "2k" H 1800 2600 50  0000 C CNN
 F 2 "maximiseur:Potentiometer_VishaySpectrol-Econtrim-Type36T" H 1800 2600 60  0001 C CNN
 F 3 "" H 1800 2600 60  0000 C CNN
 	1    1800 2600
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L maximiseur3-rescue:ZENER DZ2
@@ -872,4 +872,18 @@ F 3 "~" H 1300 5600 50  0001 C CNN
 	1    1300 5600
 	1    0    0    -1  
 $EndComp
+$Comp
+L maximiseur3-rescue:POT Rv1
+U 1 1 5D5EA3EE
+P 1800 2600
+F 0 "Rv1" H 1750 2425 50  0000 C CNN
+F 1 "2k" H 1800 2600 50  0000 C CNN
+F 2 "maximiseur:pot_vert_Radiohm" H 1800 2600 60  0001 C CNN
+F 3 "" H 1800 2600 60  0000 C CNN
+	1    1800 2600
+	0    1    -1   0   
+$EndComp
+Connection ~ 1800 2850
+Connection ~ 1950 2600
+Connection ~ 1800 2350
 $EndSCHEMATC

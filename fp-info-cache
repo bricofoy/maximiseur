@@ -1,4 +1,4 @@
-1632810289665411
+1618666762583411
 Capacitor_THT
 CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
 CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
@@ -7161,20 +7161,6 @@ CP Radial series Radial pin pitch 7.50mm  diameter 16mm Electrolytic Capacitor
 2
 2
 maximiseur
-C_Radial_D5_L6_P2.5
-Radial Electrolytic Capacitor Diameter 5mm x Length 6mm, Pitch 2.5mm
-Electrolytic Capacitor
-0
-2
-2
-maximiseur
-C_Radial_D22_L41_P10
-Radial Electrolytic Capacitor Diameter 22mm x Length 41mm, Pitch 10mm
-Electrolytic Capacitor
-0
-2
-2
-maximiseur
 C_Rect_L7.0mm_W2.0mm_P5.00mm
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor
 C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
@@ -7182,37 +7168,9 @@ C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
 2
 2
 maximiseur
-C_Rect_L7_W2.5_P5
-Film Capacitor Length 7mm x Width 2.5mm, Pitch 5mm
-Capacitor
-0
-2
-2
-maximiseur
-D3
-Diode 3 pas
-DIODE DEV
-0
-2
-2
-maximiseur
-D6.5
-
-
-0
-2
-2
-maximiseur
 DIP-8_W7.62mm_LongPads
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
-0
-8
-8
-maximiseur
-DIP-8__300_ELL
-8 pins DIL package, elliptical pads
-DIL
 0
 8
 8
@@ -7231,13 +7189,6 @@ Diode DO-201AE series Axial Horizontal pin pitch 15.24mm  length 9mm diameter 5.
 2
 2
 maximiseur
-Diode_TO-220_Vertical
-TO-220, Diode, Vertical,
-TO-220, Diode, Vertical,
-0
-2
-2
-maximiseur
 MountingHole_4.3mm_M4
 Mounting Hole 4.3mm, no annular, M4
 mounting hole 4.3mm no annular m4
@@ -7251,13 +7202,6 @@ Potentiometer, Trimmer, Spectrol Type 36T, Econtrim, Rev A, 02 Aug 2010,
 0
 3
 3
-maximiseur
-R3-LARGE_PADS
-Resitance 3 pas
-R
-0
-2
-2
 maximiseur
 RV_Disc_D15.5mm_W4.5mm_P7.5mm
 Varistor, diameter 15.5mm, width 4.5mm, pitch 7.5mm
@@ -7280,26 +7224,12 @@ TO-126-3 Vertical RM 2.54mm
 3
 3
 maximiseur
-TO-220_FET-GDS_Vertical_LargePads
-TO-220, FET-GDS, Vertical, Large Pads,
-TO-220, FET-GDS, Vertical, Large Pads,
-0
-3
-3
-maximiseur
 TO-220_FET-GDS_Vertical_LargePads_decales
 TO-220, FET-GDS, Vertical, Large Pads,
 TO-220, FET-GDS, Vertical, Large Pads,
 0
 3
 3
-maximiseur
-Trou_3mm
-Trou 3mm
-Trou de montage
-0
-1
-1
 maximiseur
 bornier2
 Bornier d'alimentation 2 pins
@@ -7308,9 +7238,9 @@ DEV
 2
 2
 maximiseur
-bornier4
-Bornier d'alimentation 4 pins
-DEV
+pot_vert_Radiohm
+
+
 0
-4
-4
+3
+3
