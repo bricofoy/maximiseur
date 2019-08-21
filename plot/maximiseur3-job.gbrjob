@@ -1,0 +1,55 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.4-e60b266~84~ubuntu18.04.1"
+    },
+    "CreationDate":  "2019-08-21T17:56:03+02:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "maximiseur3",
+      "GUID": "6d617869-6d69-4736-9575-72332e6b6963",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 150.100,
+      "Y": 100.100
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.600,
+      "TrackToRegion":  0.400,
+      "RegionToRegion":  0.400
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "maximiseur3-B_Cu.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    }
+  ]
+}
